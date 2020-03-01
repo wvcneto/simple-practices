@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/all.min.js">
+
+  <title>Responsive Navbar</title>
+</head>
+
+<body>
+  <nav class="navbar">
+    <ul class="navbar-list">
+      <li class="navbar-item">
+        <a href="#" class="navbar-link">
+          <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="cat" role="img"
+            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="svg-inline--fa fa-cat fa-w-16 fa-3x">
+            <path fill="currentColor"
+              d="M290.59 192c-20.18 0-106.82 1.98-162.59 85.95V192c0-52.94-43.06-96-96-96-17.67 0-32 14.33-32 32s14.33 32 32 32c17.64 0 32 14.36 32 32v256c0 35.3 28.7 64 64 64h176c8.84 0 16-7.16 16-16v-16c0-17.67-14.33-32-32-32h-32l128-96v144c0 8.84 7.16 16 16 16h32c8.84 0 16-7.16 16-16V289.86c-10.29 2.67-20.89 4.54-32 4.54-61.81 0-113.52-44.05-125.41-102.4zM448 96h-64l-64-64v134.4c0 53.02 42.98 96 96 96s96-42.98 96-96V32l-64 64zm-72 80c-8.84 0-16-7.16-16-16s7.16-16 16-16 16 7.16 16 16-7.16 16-16 16zm80 0c-8.84 0-16-7.16-16-16s7.16-16 16-16 16 7.16 16 16-7.16 16-16 16z"
+              class=""></path>
+          </svg>
+          <span class="link-text">Cats</span>
+        </a>
+      </li>
+      <li class="navbar-item">
+        <a href="#" class="navbar-link">
+          <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="dog" role="img"
+            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="svg-inline--fa fa-dog fa-w-18 fa-3x">
+            <path fill="currentColor"
+              d="M298.06,224,448,277.55V496a16,16,0,0,1-16,16H368a16,16,0,0,1-16-16V384H192V496a16,16,0,0,1-16,16H112a16,16,0,0,1-16-16V282.09C58.84,268.84,32,233.66,32,192a32,32,0,0,1,64,0,32.06,32.06,0,0,0,32,32ZM544,112v32a64,64,0,0,1-64,64H448v35.58L320,197.87V48c0-14.25,17.22-21.39,27.31-11.31L374.59,64h53.63c10.91,0,23.75,7.92,28.62,17.69L464,96h64A16,16,0,0,1,544,112Zm-112,0a16,16,0,1,0-16,16A16,16,0,0,0,432,112Z"
+              class=""></path>
+          </svg>
+          <span class="link-text">Dogs</span>
+        </a>
+      </li>
+      <li class="navbar-item">
+        <a href="#" class="navbar-link">
+          <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="twitter" role="img"
+            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="svg-inline--fa fa-twitter fa-w-16 fa-3x">
+            <path fill="currentColor"
+              d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"
+              class=""></path>
+          </svg>
+          <span class="link-text">Birds</span>
+        </a>
+      </li>
+      <li class="navbar-item">
+        <a href="#" class="navbar-link">
+          <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="alien" role="img"
+            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg-inline--fa fa-alien fa-w-14 fa-3x">
+            <path fill="currentColor"
+              d="M224,0C100.28125,0,0,88.0293,0,232.45117,0,344.22852,134.21484,457.04883,194.86328,502.32422a48.70766,48.70766,0,0,0,58.27344,0C313.78516,457.04883,448,344.22852,448,232.45117,448,88.0293,347.71875,0,224,0ZM176,320H144a80.00021,80.00021,0,0,1-80-80,15.99954,15.99954,0,0,1,16-16h32a79.999,79.999,0,0,1,80,80A16.00079,16.00079,0,0,1,176,320Zm128,0H272a16.00079,16.00079,0,0,1-16-16,79.999,79.999,0,0,1,80-80h32a15.99954,15.99954,0,0,1,16,16A80.00021,80.00021,0,0,1,304,320Z"
+              class=""></path>
+          </svg>
+          <span class="link-text">Aliens</span>
+        </a>
+      </li>
+      <li class="navbar-item">
+        <a href="#" class="navbar-link">
+          <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="moon" role="img"
+            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="svg-inline--fa fa-moon fa-w-16 fa-3x">
+            <path fill="currentColor"
+              d="M283.211 512c78.962 0 151.079-35.925 198.857-94.792 7.068-8.708-.639-21.43-11.562-19.35-124.203 23.654-238.262-71.576-238.262-196.954 0-72.222 38.662-138.635 101.498-174.394 9.686-5.512 7.25-20.197-3.756-22.23A258.156 258.156 0 0 0 283.211 0c-141.309 0-256 114.511-256 256 0 141.309 114.511 256 256 256z"
+              class=""></path>
+          </svg>
+          <span class="link-text">Night Mode</span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+  <div class="content">
+    <h1>Responsive Navbar - Only HTML and CSS</h1>
+    <p>
+      Mussum Ipsum, cacilds vidis litro abertis. Manduma pindureta quium dia nois paga. Praesent vel viverra nisi.
+      Mauris aliquet nunc non turpis scelerisque, eget. Interagi no mé, cursus quis, vehicula ac nisi. Viva Forevis
+      aptent taciti sociosqu ad litora torquent.
+      A ordem dos tratores não altera o pão duris. Nec orci ornare consequat. Praesent lacinia ultrices consectetur. Sed
+      non ipsum felis. Cevadis im ampola pa arma uma pindureta. Quem num gosta di mé, boa gentis num é.
+      Mais vale um bebadis conhecidiss, que um alcoolatra anonimis. Em pé sem cair, deitado sem dormir, sentado sem
+      cochilar e fazendo pose. Leite de capivaris, leite de mula manquis sem cabeça. Detraxit consequat et quo num tendi
+      nada.
+      Mussum Ipsum, cacilds vidis litro abertis. Manduma pindureta quium dia nois paga. Praesent vel viverra nisi.
+      Mauris aliquet nunc non turpis scelerisque, eget. Interagi no mé, cursus quis, vehicula ac nisi. Viva Forevis
+      aptent taciti sociosqu ad litora torquent.
+      A ordem dos tratores não altera o pão duris. Nec orci ornare consequat. Praesent lacinia ultrices consectetur. Sed
+      non ipsum felis. Cevadis im ampola pa arma uma pindureta. Quem num gosta di mé, boa gentis num é.
+      Mais vale um bebadis conhecidiss, que um alcoolatra anonimis. Em pé sem cair, deitado sem dormir, sentado sem
+      cochilar e fazendo pose. Leite de capivaris, leite de mula manquis sem cabeça. Detraxit consequat et quo num tendi
+      nada.
+      Mussum Ipsum, cacilds vidis litro abertis. Manduma pindureta quium dia nois paga. Praesent vel viverra nisi.
+      Mauris aliquet nunc non turpis scelerisque, eget. Interagi no mé, cursus quis, vehicula ac nisi. Viva Forevis
+      aptent taciti sociosqu ad litora torquent.
+      A ordem dos tratores não altera o pão duris. Nec orci ornare consequat. Praesent lacinia ultrices consectetur. Sed
+      non ipsum felis. Cevadis im ampola pa arma uma pindureta. Quem num gosta di mé, boa gentis num é.
+      Mais vale um bebadis conhecidiss, que um alcoolatra anonimis. Em pé sem cair, deitado sem dormir, sentado sem
+      cochilar e fazendo pose. Leite de capivaris, leite de mula manquis sem cabeça. Detraxit consequat et quo num tendi
+      nada.
+      Mussum Ipsum, cacilds vidis litro abertis. Manduma pindureta quium dia nois paga. Praesent vel viverra nisi.
+      Mauris aliquet nunc non turpis scelerisque, eget. Interagi no mé, cursus quis, vehicula ac nisi. Viva Forevis
+      aptent taciti sociosqu ad litora torquent.
+      A ordem dos tratores não altera o pão duris. Nec orci ornare consequat. Praesent lacinia ultrices consectetur. Sed
+      non ipsum felis. Cevadis im ampola pa arma uma pindureta. Quem num gosta di mé, boa gentis num é.
+      Mais vale um bebadis conhecidiss, que um alcoolatra anonimis. Em pé sem cair, deitado sem dormir, sentado sem
+      cochilar e fazendo pose. Leite de capivaris, leite de mula manquis sem cabeça. Detraxit consequat et quo num tendi
+      nada.
+    </p>
+  </div>
+</body>
+
+</html>
