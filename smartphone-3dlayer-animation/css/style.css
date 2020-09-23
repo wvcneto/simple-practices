@@ -1,0 +1,80 @@
+body {
+    background: #313131;
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.phone-container {
+  position: relative;
+  width: 360px;
+  height: 640px;
+  margin-top: 150px;
+  background: #fcfcfa;
+  transform: rotate(-30deg) skewY(25deg) scale(0.8);
+  box-shadow: -25px 40px 4px rgba(0,0,0,0.2);
+  transition: 0.5s;
+}
+
+.phone-container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -20px;
+  height: 100%;
+  width: 20px;
+  background: #fcfcfa;
+  box-sizing: border-box;
+  transform-origin: right;
+  transform: skewY(-58deg);
+}
+
+.phone-container::after {
+  content: '';
+  position: absolute;
+  bottom: -32px;
+  left: 0;
+  height: 32px;
+  width: 100%;
+  background: #fcfcfa;
+  box-sizing: border-box;
+  transform-origin: top;
+  transform: skewX(-32deg);
+}
+
+.phone-container:hover {
+  transform: rotate(-30deg) skewY(25deg) translate(20px, -20px);
+  box-shadow: -60px 100px 60px rgba(0,0,0,0.5);
+}
+
+.phone-container img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+
+  transition: 0.5s;
+}
+
+.phone-container:hover img:nth-child(4) {
+  transform: translate(120px, -120px);
+  opacity: 1;
+}
+
+.phone-container:hover img:nth-child(3) {
+  transform: translate(90px, -90px);
+  opacity: 0.8;
+}
+
+.phone-container:hover img:nth-child(2) {
+  transform: translate(60px, -60px);
+  opacity: 0.6;
+}
+
+.phone-container:hover img:nth-child(1) {
+  transform: translate(30px, -30px);
+  opacity: 0.4;
+}
