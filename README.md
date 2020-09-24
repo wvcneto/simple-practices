@@ -1,1 +1,1 @@
-# Repository dedicated to simple and interesting practices
+# Repository dedicated to CSS, simple and interesting practices
